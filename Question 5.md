@@ -25,4 +25,4 @@ awk "{print $3}" text.txt
 8. Count the number of words in each line.
 awk '{print NF, $0}' text.txt
 
-![alt text](image-1.png)
+![alt text](image-1.png) 
