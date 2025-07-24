@@ -4,12 +4,12 @@ mv txt.txt LinuxProject/
 cd LinuxProject
 
 
-3. Display the contents of **`text.txt`** on the terminal.
+2. Display the contents of **`text.txt`** on the terminal.
    
 cat text.txt
 
 
-5. Append the following text to **`text.txt`**:
+3. Append the following text to **`text.txt`**:
    
     "Let's learn Linux.
 
@@ -21,22 +21,22 @@ cat text.txt
 wc -l text.txt
 
 
-6. Search for the word "Love" in **`text.txt`** and display the lines containing it.
+5. Search for the word "Love" in **`text.txt`** and display the lines containing it.
    
 grep Love text.txt
 
 
-8. Replace "Make" with "Do".
+6. Replace "Make" with "Do".
    
 sed -i 's/Make/Do/g' text.txt
 
 
-10. Display only the third word from each line in **`text.txt`**.
+7. Display only the third word from each line in **`text.txt`**.
     
 awk "{print $3}" text.txt
 
 
-12. Count the number of words in each line.
+8. Count the number of words in each line.
     
 awk '{print NF, $0}' text.txt
 
